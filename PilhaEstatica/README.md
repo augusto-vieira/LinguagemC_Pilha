@@ -6,6 +6,7 @@ Uma estrutura do tipo **"Pilha"** é uma sequência de elementos do mesmo tipo, 
 Uma **Pilha** é um tipo especial de **Lista**.
 
 Inserções e exclusões de elementos ocorrem apenas no início da Pilha.
+# GIF ![Lista]()
 
 1. **Aplicações:**
     - Análise de uma expressão matemática 
@@ -38,9 +39,9 @@ Alocação estática:
 
 
 ## **Pilha Estática**
-Tipo de “Pilha ” onde o sucessor de um elemento ocupa a posição física seguinte do mesmo(uso de "array").
+Tipo de "Pilha" onde o sucessor de um elemento ocupa a posição física seguinte do mesmo(uso de "array").
 
-## Imagem Pilha ![Lista]()
+## Imagem Pilha pi ![Lista]()
 
 
 Definimos a Pilha em dois arquivos.
@@ -106,7 +107,7 @@ struct pilha
 
 ``` C
 /* main.c */
-#include "ListaDinEncad.h"
+#include "PilhaSequencial.h"
 
 int main(int argc, char **argv)
 {
@@ -116,7 +117,7 @@ int main(int argc, char **argv)
 }
 
 ```
-![Lista]()
+# Imagem Criar Pilha ![Lista]()
 
 
 
