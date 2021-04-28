@@ -6,7 +6,7 @@ Uma estrutura do tipo **"Pilha"** é uma sequência de elementos do mesmo tipo, 
 Uma **Pilha** é um tipo especial de **Lista**.
 
 Inserções e exclusões de elementos ocorrem apenas no início da Pilha.
-![Pilha Estatica](https://github.com/augusto-vieira/LinguagemC_Pilha/tree/master/PilhaEstatica/img/gif)
+![Pilha Estatica](https://github.com/augusto-vieira/LinguagemC_Pilha/blob/master/PilhaEstatica/img/gif/Push_Pop.gif)
 
 1. **Aplicações:**
     - Análise de uma expressão matemática 
@@ -41,7 +41,7 @@ Alocação estática:
 ## **Pilha Estática**
 Tipo de "Pilha" onde o sucessor de um elemento ocupa a posição física seguinte do mesmo(uso de "array").
 
-![Pilha pi](https://github.com/augusto-vieira/LinguagemC_Pilha/blob/master/PilhaEstatica/img/gif/Push_Pop.gif)
+![Pilha pi](https://github.com/augusto-vieira/LinguagemC_Pilha/blob/master/PilhaEstatica/img/Pilha_pi.png)
 
 
 Definimos a Pilha em dois arquivos.
