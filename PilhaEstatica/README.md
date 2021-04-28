@@ -41,7 +41,7 @@ Alocação estática:
 ## **Pilha Estática**
 Tipo de "Pilha" onde o sucessor de um elemento ocupa a posição física seguinte do mesmo(uso de "array").
 
-![Pilha pi](https://github.com/augusto-vieira/LinguagemC_Pilha/blob/master/PilhaEstatica/img/Pilha_pi.png)
+![Pilha pi](https://github.com/augusto-vieira/LinguagemC_Pilha/blob/master/PilhaEstatica/img/gif/Push_Pop.gif)
 
 
 Definimos a Pilha em dois arquivos.
