@@ -113,7 +113,8 @@ struct pilha
 int main(int argc, char **argv)
 {
     Pilha *pi;
-
+    pi = criar_Pilha();
+    
     return 0;
 }
 
