@@ -1,4 +1,4 @@
-# •	Pilha Estática 
+# •	Pilha Dinâmica 
 
 Uma estrutura do tipo **"Pilha"** é uma sequência de elementos do mesmo tipo, como as “Lista” e “Filas”. Seus elementos possuem estrutura interna abstraída, ou seja, complexidade é arbitraria e não afeta o seu funcionamento.
  
@@ -7,7 +7,7 @@ Uma **Pilha** é um tipo especial de **Lista**.
 
 Inserções e exclusões de elementos ocorrem apenas no início da Pilha.
 
-![Pilha Estatica](https://github.com/augusto-vieira/LinguagemC_Pilha/blob/master/PilhaEstatica/img/gif/Push_Pop.gif)
+![Pilha Din](https://github.com/augusto-vieira/LinguagemC_Pilha/blob/master/PilhaEstatica/img/gif/Push_Pop.gif)
 
 1. **Aplicações:**
     - Análise de uma expressão matemática 
@@ -42,7 +42,7 @@ Alocação Dinâmica:
 ## **Pilha Dinâmica**
 Tipo de "Pilha" onde o sucessor de um elemento aponta para o seu sucessor na "Pilha". Usa um ponteiro especia(Ponteiro para Ponteiro) para o primeiro elemento da "Pilha" e uma indicaçao de final de pilha
 
-![Pilha pi](https://github.com/augusto-vieira/LinguagemC_Pilha/blob/master/PilhaEstatica/img/Pilha_pi.png)
+![Pilha pi](https://github.com/augusto-vieira/LinguagemC_Pilha/blob/master/Pilha%20Dinamica/img/Pilha_pi.png)
 
 
 Definimos a Pilha em dois arquivos.
@@ -105,7 +105,6 @@ struct elemento
 
 typedef struct elemento Elem;
 ``` 
-# ![Pilha](https://github.com/augusto-vieira/LinguagemC_Pilha/blob/master/PilhaEstatica/img/criar_Pilha.png)
 
 ``` C
 /* PilhaDin.h */
@@ -137,7 +136,7 @@ int main(int argc, char **argv)
     return 0;
 }
 ```
-# ![Criar_Pilha](https://github.com/augusto-vieira/LinguagemC_Pilha/blob/master/PilhaEstatica/img/criar_Pilha.png)
+# ![Criar_Pilha](https://github.com/augusto-vieira/LinguagemC_Pilha/blob/master/Pilha%20Dinamica/img/criar_Pilha.png)
 
 ``` C
 /* PilhaDin.h */
@@ -175,7 +174,7 @@ int main(int argc, char **argv)
     return 0;
 }
 ```
-# ![Libera_Pilha](https://github.com/augusto-vieira/LinguagemC_Pilha/blob/master/PilhaEstatica/img/criar_Pilha.png)
+# ![Libera_Pilha](https://github.com/augusto-vieira/LinguagemC_Pilha/blob/master/Pilha%20Dinamica/img/gif/Libera_Pilha.gif)
 
 ``` C
 /* PilhaDin.h */
@@ -215,7 +214,7 @@ int main(int argc, char **argv)
     return 0;
 }
 ```
-# ![Tamanho_Pilha](https://github.com/augusto-vieira/LinguagemC_Pilha/blob/master/PilhaEstatica/img/criar_Pilha.png)
+# ![Tamanho_Pilha](https://github.com/augusto-vieira/LinguagemC_Pilha/blob/master/Pilha%20Dinamica/img/gif/Tamanho_Pilha.gif)
 
 ``` C
 /* PilhaDin.h */
@@ -249,7 +248,7 @@ int main(int argc, char **argv)
     return 0;
 }
 ```
-# ![Pilha_Vazia](https://github.com/augusto-vieira/LinguagemC_Pilha/blob/master/PilhaEstatica/img/criar_Pilha.png)
+# ![Pilha_Vazia](https://github.com/augusto-vieira/LinguagemC_Pilha/blob/master/Pilha%20Dinamica/img/Pilha_vazia.png)
 
 ``` C
 /* PilhaDin.h */
@@ -289,7 +288,7 @@ int main(int argc, char **argv)
     return 0;
 }
 ```
-# ![Insere_Pilha](https://github.com/augusto-vieira/LinguagemC_Pilha/blob/master/PilhaEstatica/img/criar_Pilha.png)
+# ![Insere_Pilha](https://github.com/augusto-vieira/LinguagemC_Pilha/blob/master/Pilha%20Dinamica/img/gif/Insere_Pilha.gif)
 
 
 ### Referência:
